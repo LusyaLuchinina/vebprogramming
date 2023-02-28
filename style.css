@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  /*border: 250px;*/
+}
+
+.header {
+  width: 100;
+
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  z-index: 1000;
+}
+
+.header__inner,
+.basement__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: first baseline;
+}
+
+.header__escape {
+  font-family: 'Lora';
+  font-style: normal;
+  font-size: 26px;
+  color: #2E2E2E;
+  padding-bottom: 131px;
+
+
+}
+/*intro*/
+
+.intro__title {
+  font-family: 'Lora';
+  font-weight: 400;
+  font-size: 50px;
+  padding-bottom: 20px;
+  padding-top: 131px;
+
+
+  color:  #2E2E2E;
+}
+
+.intro__suptitle {
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  padding-bottom: 40px;
+
+  color: rgba(46, 46, 46, 0.63);
+}
+
+/*nav*/
+
+.nav {
+
+  font-size: 12px;
+  text-transform: uppercase;
+
+  color: #2E2E2E;
+
+}
+
+.nav__link {
+  font-family: 'Oxygen';
+  font-style: normal;
+  color: #2E2E2E;
+  text-decoration: none;
+
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 30px;
+}
+
+/*text*/
+
+.text {
+  width: 960px;
+  height: 1431px;
+  left: 240px;
+  padding-left: 240px;
+  padding-top: 140px;
+  padding-right: 240px;
+
+  margin-bottom: 0px;
+}
+
+.text__text {
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  /* or 146% */
+
+
+  color: #101315;
+
+}
+
+/*basement*/
+
+.basement {
+  background: url("../images/IMAGEbasement.png") center no-repeat;
+  height: 89px;
+  background-size: cover;
+}
+
+.basement__escape {
+  font-family: 'Lora';
+  font-style: normal;
+  font-size: 26px;
+  color: #2E2E2E;
+
+}
